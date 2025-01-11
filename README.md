@@ -19,16 +19,21 @@ A command-line tool that analyzes the file structure and sizes of GitHub reposit
 
 ## Installation
 
-  1. Clone this repository:
+1. Clone this repository:
 
 ```bash
 git clone https://github.com/just-nibble/github-repo-analyzer.git
 ```
 
-2. Install dependencies:
+2. Enter Directory:
 
 ```bash
-go mod init github-repo-analyzer
+cd github-repo-analyzer
+```
+
+3. Install dependencies:
+
+```bash
 go get github.com/go-git/go-git/v5
 ```
 
@@ -37,7 +42,7 @@ go get github.com/go-git/go-git/v5
 Run the analyzer by providing a GitHub repository URL:
 
 ```bash
-go run main.go https://github.com/username/repository.git
+go run main.go https://github.com/just-nibble/GoBooks
 ```
 
 The tool will output JSON-formatted analysis including:
@@ -50,7 +55,7 @@ Example output:
 
 ```json
 {
-  "clone_url": "https://github.com/example/example.git",
+  "clone_url": "https://github.com/just-nibble/GoBooks",
   "size": 20.45,
   "folders": [
     {

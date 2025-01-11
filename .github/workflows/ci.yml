@@ -48,5 +48,5 @@ jobs:
 
     - name: Test Build
       run: |
-        ./github-repo-analyzer https://github.com/golang/go
+        ./github-repo-analyzer https://github.com/just-nibble/GoBooks
   
