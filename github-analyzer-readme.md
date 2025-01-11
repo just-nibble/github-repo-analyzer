@@ -58,7 +58,8 @@ Example output:
       "files": [
         {
           "name": "main.go",
-          "size": 0.15
+          "size": 0.23,
+          "size_human": "244.36 KB"
         }
       ]
     }
